@@ -1,0 +1,28 @@
+.osn{
+    background-color:#12be8b9a;
+}
+
+.all{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    height: 600px;
+    width: 900px;
+    transform: translate(-50%, -50%);
+    background-color: #1fcc98;
+    border: 1px solid rgb(94, 11, 45);
+    
+    
+}
+
+.legit{
+    height: 350px;
+    width: 350px;
+   
+}
+
+.knopka{
+    height: 30px;
+    width: 80px;
+}
