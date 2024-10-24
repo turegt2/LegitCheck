@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+
+<head>
+    <link rel="icon" href="materials/Legit Check.jpeg" type="image/x-icon">
+    <script src="work.js"></script>
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="question.css">
+    <meta charset="UTF-8">
+    <meta https-eduiv="X-UA-Compatible" contest="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legit Check</title>
+</head>
+
+
+<body id="output">
+    <div id="q1" style="display:block;">
+        <p id="p1"><button class="k1" onclick="ei_counter1();sled_vopr1();" ></button>Пойти и затусить</p>
+        <p id="p2"><button class="k2" onclick="ei_counter2();sled_vopr2();" ></button>Остаться дома и заняться чем-нибудь своим </p></div>
+
+
+    <div id="q2" style="display:none;">
+        <button id="2back1" class="back" style="display:none;" onclick="ei_counter1_minus(); pred_vopr();"></button>
+        <button id="2back2" class="back" style="display:none;" onclick="ei_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="ei_counter1();sled_vopr1();" ></button>Легко могу начать или поддержать разговор</p>
+        <p id="p2"><button class="k2" onclick="ei_counter2();sled_vopr2();" onclick="ei_counter2();sled_vopr2();" ></button>Вступаю в разговор при необходимости, оценив обстановку</p></div>
+
+
+    <div id="q3" style="display:none;">
+        <button id="3back1" class="back" style="display:none;" onclick="ei_counter1_minus(); pred_vopr();"></button>
+        <button id="3back2" class="back" style="display:none;" onclick="ei_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="ei_counter1();sled_vopr1();"></button>Воодушевленным и наполненным энергией</p>
+        <p id="p2"><button class="k2" onclick="ei_counter2();sled_vopr2();"></button>Взволнованным и уставшим</p></div>
+
+
+    <div id="q4" style="display:none;">
+        <button id="4back1" class="back" style="display:none;" onclick="ei_counter1_minus(); pred_vopr();"></button>
+        <button id="4back2" class="back" style="display:none;" onclick="ei_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="ei_counter1();sled_vopr1();"></button>Да, я люблю это >:)</p>
+        <p id="p2"><button class="k2" onclick="ei_counter2();sled_vopr2();"></button>Дожидаюсь, чтобы со мной заговорили первыми</p></div>
+
+
+    <div id="q5" style="display:none;">
+        <button id="5back1" class="back" style="display:none;" onclick="ei_counter1_minus(); pred_vopr();"></button>
+        <button id="5back2" class="back" style="display:none;" onclick="ei_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="ei_counter1();sled_vopr1();"></button>Мне нравится быть в центре внимания</p>
+        <p id="p2"><button class="k2" onclick="ei_counter2();sled_vopr2();"></button>Это вызывает у меня тревогу</p></div>
+
+
+    <div id="q6" style="display:none;">
+        <button id="6back1" class="back" style="display:none;" onclick="ei_counter1_minus(); pred_vopr();"></button>
+        <button id="6back2" class="back" style="display:none;" onclick="ei_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="ei_counter1();sled_vopr1();"></button>На большом празднике или вечеринке с множеством людей</p>
+        <p id="p2"><button class="k2" onclick="ei_counter2();sled_vopr2();"></button>В небольшом кругу близких друзей или семьи</p></div>
+
+
+    <div id="q7" style="display:none;">
+        <button id="7back1" class="back" style="display:none;" onclick="ei_counter1_minus(); pred_vopr();"></button>
+        <button id="7back2" class="back" style="display:none;" onclick="ei_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="ei_counter1();sled_vopr1();"></button>Общаться вживую лицом к лицу</p>
+        <p id="p2"><button class="k2" onclick="ei_counter2();sled_vopr2();"></button>Общаться в соцсетях</p></div>
+
+
+    <div id="q8" style="display:none;">
+        <button id="8back1" class="back" style="display:none;" onclick="sn_counter1_minus(); pred_vopr();"></button>
+        <button id="8back2" class="back" style="display:none;" onclick="sn_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="sn_counter1();sled_vopr1();"></button>Учусь на своих ошибках и опыте</p>
+        <p id="p2"><button class="k2" onclick="sn_counter2();sled_vopr2();"></button>Больше воспринимаю идеи и теорию</p></div>
+
+
+    <div id="q9" style="display:none;">
+        <button id="9back1" class="back" style="display:none;" onclick="sn_counter1_minus(); pred_vopr();"></button>
+        <button id="9back2" class="back" style="display:none;" onclick="sn_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="sn_counter1();sled_vopr1();"></button>Они кажутся мне непонятными или ненужными, опыт полезнее</p>
+        <p id="p2"><button class="k2" onclick="sn_counter2();sled_vopr2();"></button>Они меня вдохновляют, я ими живу</p></div>
+
+
+    <div id="q10" style="display:none;">
+        <button id="10back1" class="back" style="display:none;" onclick="sn_counter1_minus(); pred_vopr();"></button>
+        <button id="10back2" class="back" style="display:none;" onclick="sn_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="sn_counter1();sled_vopr1();"></button>Подробно анализирую все аспекты сложившейся ситуации</p>
+        <p id="p2"><button class="k2" onclick="sn_counter2();sled_vopr2();"></button>Склонен следовать своему чутью, интуиции, инстинкту</p></div>
+
+
+    <div id="q11" style="display:none;">
+        <button id="11back1" class="back" style="display:none;" onclick="sn_counter1_minus(); pred_vopr();"></button>
+        <button id="11back2" class="back" style="display:none;" onclick="sn_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="sn_counter1();sled_vopr1();"></button>Я замечаю мелочи и детали, в них главная красота</p>
+        <p id="p2"><button class="k2" onclick="sn_counter2();sled_vopr2();"></button>Сосредотачиваюсь на общем представлении, оно важнее</p></div>
+
+
+    <div id="q12" style="display:none;">
+        <button id="12back1" class="back" style="display:none;" onclick="sn_counter1_minus(); pred_vopr();"></button>
+        <button id="12back2" class="back" style="display:none;" onclick="sn_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="sn_counter1();sled_vopr1();"></button>Прочитаю про него в дневнике, разработаю план, подготовлюсь и попробую поймать</p>
+        <p id="p2"><button class="k2" onclick="sn_counter2();sled_vopr2();"></button>Нет времени рассуждать, монстр громит Хижину, возьму зеркало или биту и сразу пойду исправлять ситуацию, главное - не смотреть ему в глаза</p></div>
+
+
+    <div id="q13" style="display:none;">
+        <button id="13back1" class="back" style="display:none;" onclick="sn_counter1_minus(); pred_vopr();"></button>
+        <button id="13back2" class="back" style="display:none;" onclick="sn_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="sn_counter1();sled_vopr1();"></button>Практические занятия и эксперименты</p>
+        <p id="p2"><button class="k2" onclick="sn_counter2();sled_vopr2();"></button>Мир идеальных вещей и мечты о возможном будущем</p></div>
+
+
+    <div id="q14" style="display:none;">
+        <button id="14back1" class="back" style="display:none;" onclick="sn_counter1_minus(); pred_vopr();"></button>
+        <button id="14back2" class="back" style="display:none;" onclick="sn_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="sn_counter1();sled_vopr1();"></button>Фактические данные</p>
+        <p id="p2"><button class="k2" onclick="sn_counter2();sled_vopr2();"></button>Интуитивные ощущения</p></div>
+
+
+    <div id="q15" style="display:none;">
+        <button id="15back1" class="back" style="display:none;" onclick="sn_counter1_minus(); pred_vopr();"></button>
+        <button id="15back2" class="back" style="display:none;" onclick="sn_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="tf_counter1();sled_vopr1();"></button>Логически анализирую все факты</p>
+        <p id="p2"><button class="k2" onclick="tf_counter2();sled_vopr2();"></button>Ориентируюсь на свои чувства</p></div>
+
+
+    <div id="q16" style="display:none;">
+        <button id="16back1" class="back" style="display:none;" onclick="tf_counter1_minus(); pred_vopr();"></button>
+        <button id="16back2" class="back" style="display:none;" onclick="tf_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="tf_counter1();sled_vopr1();"></button>Сравниваете плюсы и минусы</p>
+        <p id="p2"><button class="k2" onclick="tf_counter2();sled_vopr2();"></button>Прислушиваетесь к внутреннему голосу</p></div>
+
+
+    <div id="q17" style="display:none;">
+        <button id="17back1" class="back" style="display:none;" onclick="tf_counter1_minus(); pred_vopr();"></button>
+        <button id="17back2" class="back" style="display:none;" onclick="tf_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="tf_counter1();sled_vopr1();"></button>Логику и рациональность</p>
+        <p id="p2"><button class="k2" onclick="tf_counter2();sled_vopr2();"></button>Эмоциональную поддержку и понимание</p></div>
+
+
+    <div id="q18" style="display:none;">
+        <button id="18back1" class="back" style="display:none;" onclick="tf_counter1_minus(); pred_vopr();"></button>
+        <button id="18back2" class="back" style="display:none;" onclick="tf_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="tf_counter1();sled_vopr1();"></button>Рассудите конфликт по справедливости</p>
+        <p id="p2"><button class="k2" onclick="tf_counter2();sled_vopr2();"></button>Помирите их, разузнав мнения и чувства каждого</p></div>
+
+
+    <div id="q19" style="display:none;">
+        <button id="19back1" class="back" style="display:none;" onclick="tf_counter1_minus(); pred_vopr();"></button>
+        <button id="19back2" class="back" style="display:none;" onclick="tf_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="tf_counter1();sled_vopr1();"></button>Факты и аргументы</p>
+        <p id="p2"><button class="k2" onclick="tf_counter2();sled_vopr2();"></button>Эмоции и моральные ценности</p></div>
+
+
+    <div id="q20" style="display:none;">
+        <button id="20back1" class="back" style="display:none;" onclick="tf_counter1_minus(); pred_vopr();"></button>
+        <button id="20back2" class="back" style="display:none;" onclick="tf_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="tf_counter1();sled_vopr1();"></button>Воспринимаю критику логически, по фактам</p>
+        <p id="p2"><button class="k2" onclick="tf_counter2();sled_vopr2();"></button>Чувствуете себя обиженным :<</p></div>
+
+
+    <div id="q21" style="display:none;">
+        <button id="21back1" class="back" style="display:none;" onclick="tf_counter1_minus(); pred_vopr();"></button>
+        <button id="21back2" class="back" style="display:none;" onclick="tf_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="tf_counter1();sled_vopr1();"></button>Аналитик и логик</p>
+        <p id="p2"><button class="k2" onclick="tf_counter2();sled_vopr2();"></button>Душа компании</p></div>
+
+
+    <div id="q22" style="display:none;">
+        <button id="22back1" class="back" style="display:none;" onclick="tf_counter1_minus(); pred_vopr();"></button>
+        <button id="22back2" class="back" style="display:none;" onclick="tf_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="jp_counter1();sled_vopr1();"></button>Предварительно составляю план или расписание</p>
+        <p id="p2"><button class="k2" onclick="jp_counter2();sled_vopr2();"></button>Оставляю пространство для импровизации, живу в потоке</p></div>
+
+
+    <div id="q23" style="display:none;">
+        <button id="23back1" class="back" style="display:none;" onclick="jp_counter1_minus(); pred_vopr();"></button>
+        <button id="23back2" class="back" style="display:none;" onclick="jp_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="jp_counter1();sled_vopr1();"></button>Завершать дела заранее</p>
+        <p id="p2"><button class="k2" onclick="jp_counter2();sled_vopr2();"></button>Откладывать дела до последнего момента</p></div>
+
+
+    <div id="q24" style="display:none;">
+        <button id="24back1" class="back" style="display:none;" onclick="jp_counter1_minus(); pred_vopr();"></button>
+        <button id="24back2" class="back" style="display:none;" onclick="jp_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="jp_counter1();sled_vopr1();"></button>Я предпочитаю стабильность</p>
+        <p id="p2"><button class="k2" onclick="jp_counter2();sled_vopr2();"></button>Я воспринимаю их как возможность</p></div>
+
+
+    <div id="q25" style="display:none;">
+        <button id="25back1" class="back" style="display:none;" onclick="jp_counter1_minus(); pred_vopr();"></button>
+        <button id="25back2" class="back" style="display:none;" onclick="jp_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="jp_counter1();sled_vopr1();"></button>Лидера и организатора</p>
+        <p id="p2"><button class="k2" onclick="jp_counter2();sled_vopr2();"></button>Исполнителя, который действует по чёткой инструкции</p></div>
+
+
+    <div id="q26" style="display:none;">
+        <button id="26back1" class="back" style="display:none;" onclick="jp_counter1_minus(); pred_vopr();"></button>
+        <button id="26back2" class="back" style="display:none;" onclick="jp_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="jp_counter1();sled_vopr1();"></button>В условиях четкой организации</p>
+        <p id="p2"><button class="k2" onclick="jp_counter2();sled_vopr2();"></button>В ситуации с гибким подходом</p></div>
+
+
+    <div id="q27" style="display:none;">
+        <button id="27back1" class="back" style="display:none;" onclick="jp_counter1_minus(); pred_vopr();"></button>
+        <button id="27back2" class="back" style="display:none;" onclick="jp_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="jp_counter1();sled_vopr1();"></button>Мне важна каждая мелочь</p>
+        <p id="p2"><button class="k2" onclick="jp_counter2();sled_vopr2();"></button>Считаю, что главное — общая картина</p></div>
+
+
+    <div id="q28" style="display:none;">
+        <button id="28back1" class="back" style="display:none;" onclick="jp_counter1_minus(); pred_vopr();"></button>
+        <button id="28back2" class="back" style="display:none;" onclick="jp_counter2_minus(); pred_vopr();"></button>
+        <p id="p1"><button class="k1" onclick="jp_counter1();sled_vopr1();Next_page2();"></button>Человеком, который помогает победить Билла, следуя чёткому плану</p>
+        <p id="p2"><button class="k2" onclick="jp_counter2();sled_vopr2();Next_page2();"></button>Тем, кто врывается на вечеринку с кучей оружия и старается порвать всех силой своих боевых инстинктов</p></div>
+</body>
+</html>

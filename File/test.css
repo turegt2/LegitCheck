@@ -1,0 +1,68 @@
+*{margin:0;}
+html, body {height: 100%;}
+
+
+html {display: table;margin: auto;}
+
+
+body{
+    position: fixes;
+    display: table-cell;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: center;
+    background: url('materials/1.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+
+#p1{
+    width: 700px;
+    padding-left:30px;
+    padding-top:250px;
+    font-family:Arial Black;
+    font-size:15px;}
+
+
+#p2{
+    width: 700px;
+    padding-left:30px;
+    margin-top:60px;
+    font-family:Arial Black;
+    font-size:15px;}
+
+
+.k1{ 
+    margin-right:30px;
+    background: url("materials/kn1.png");
+    background-size: cover; 
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+    border-style: none;
+    vertical-align: middle;}
+
+
+.k2{
+    margin-right:30px;
+    background: url("materials/kn2.png");
+    background-size: cover; 
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+    border-style: none;
+    vertical-align: middle;}
+
+.back{
+    position: absolute;
+    margin-top:72px;
+    background: url("materials/back.png");
+    background-size: cover; 
+    height: 70px;
+    width: 105px;
+    border-style: none;
+    vertical-align: middle;}
+
+
+button:active{ 
+    transform: scale(0.97); 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);}
